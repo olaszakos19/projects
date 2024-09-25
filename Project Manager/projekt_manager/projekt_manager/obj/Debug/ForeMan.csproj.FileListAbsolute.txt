@@ -1,0 +1,193 @@
+H:\záródolgozat\zarodolgozat\projekt manager\projekt_manager\projekt_manager\bin\Debug\BouncyCastle.Crypto.dll
+H:\záródolgozat\zarodolgozat\projekt manager\projekt_manager\projekt_manager\bin\Debug\EntityFramework.dll
+H:\záródolgozat\zarodolgozat\projekt manager\projekt_manager\projekt_manager\bin\Debug\EntityFramework.SqlServer.dll
+H:\záródolgozat\zarodolgozat\projekt manager\projekt_manager\projekt_manager\bin\Debug\Google.Protobuf.dll
+H:\záródolgozat\zarodolgozat\projekt manager\projekt_manager\projekt_manager\bin\Debug\K4os.Compression.LZ4.dll
+H:\záródolgozat\zarodolgozat\projekt manager\projekt_manager\projekt_manager\bin\Debug\K4os.Compression.LZ4.Streams.dll
+H:\záródolgozat\zarodolgozat\projekt manager\projekt_manager\projekt_manager\bin\Debug\K4os.Hash.xxHash.dll
+H:\záródolgozat\zarodolgozat\projekt manager\projekt_manager\projekt_manager\bin\Debug\MySql.Data.dll
+H:\záródolgozat\zarodolgozat\projekt manager\projekt_manager\projekt_manager\bin\Debug\Renci.SshNet.dll
+H:\záródolgozat\zarodolgozat\projekt manager\projekt_manager\projekt_manager\bin\Debug\System.Buffers.dll
+H:\záródolgozat\zarodolgozat\projekt manager\projekt_manager\projekt_manager\bin\Debug\System.Data.SQLite.dll
+H:\záródolgozat\zarodolgozat\projekt manager\projekt_manager\projekt_manager\bin\Debug\System.Data.SQLite.EF6.dll
+H:\záródolgozat\zarodolgozat\projekt manager\projekt_manager\projekt_manager\bin\Debug\System.Data.SQLite.Linq.dll
+H:\záródolgozat\zarodolgozat\projekt manager\projekt_manager\projekt_manager\bin\Debug\System.Memory.dll
+H:\záródolgozat\zarodolgozat\projekt manager\projekt_manager\projekt_manager\bin\Debug\System.Numerics.Vectors.dll
+H:\záródolgozat\zarodolgozat\projekt manager\projekt_manager\projekt_manager\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+H:\záródolgozat\zarodolgozat\projekt manager\projekt_manager\projekt_manager\bin\Debug\Ubiety.Dns.Core.dll
+H:\záródolgozat\zarodolgozat\projekt manager\projekt_manager\projekt_manager\bin\Debug\Zstandard.Net.dll
+H:\záródolgozat\zarodolgozat\projekt manager\projekt_manager\projekt_manager\bin\Debug\EntityFramework.xml
+H:\záródolgozat\zarodolgozat\projekt manager\projekt_manager\projekt_manager\bin\Debug\EntityFramework.SqlServer.xml
+H:\záródolgozat\zarodolgozat\projekt manager\projekt_manager\projekt_manager\bin\Debug\Google.Protobuf.pdb
+H:\záródolgozat\zarodolgozat\projekt manager\projekt_manager\projekt_manager\bin\Debug\Google.Protobuf.xml
+H:\záródolgozat\zarodolgozat\projekt manager\projekt_manager\projekt_manager\bin\Debug\K4os.Compression.LZ4.xml
+H:\záródolgozat\zarodolgozat\projekt manager\projekt_manager\projekt_manager\bin\Debug\K4os.Compression.LZ4.Streams.xml
+H:\záródolgozat\zarodolgozat\projekt manager\projekt_manager\projekt_manager\bin\Debug\K4os.Hash.xxHash.xml
+H:\záródolgozat\zarodolgozat\projekt manager\projekt_manager\projekt_manager\bin\Debug\MySql.Data.xml
+H:\záródolgozat\zarodolgozat\projekt manager\projekt_manager\projekt_manager\bin\Debug\Renci.SshNet.xml
+H:\záródolgozat\zarodolgozat\projekt manager\projekt_manager\projekt_manager\bin\Debug\System.Buffers.xml
+H:\záródolgozat\zarodolgozat\projekt manager\projekt_manager\projekt_manager\bin\Debug\System.Data.SQLite.xml
+H:\záródolgozat\zarodolgozat\projekt manager\projekt_manager\projekt_manager\bin\Debug\System.Memory.xml
+H:\záródolgozat\zarodolgozat\projekt manager\projekt_manager\projekt_manager\bin\Debug\System.Numerics.Vectors.xml
+H:\záródolgozat\zarodolgozat\projekt manager\projekt_manager\projekt_manager\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+H:\záródolgozat\zarodolgozat\projekt manager\projekt_manager\projekt_manager\obj\Debug\ForeMan.csprojAssemblyReference.cache
+H:\záródolgozat\zarodolgozat\projekt manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.AdminAdatModosit.resources
+H:\záródolgozat\zarodolgozat\projekt manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.adminfelulet.resources
+H:\záródolgozat\zarodolgozat\projekt manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.adminFelvetel.resources
+H:\záródolgozat\zarodolgozat\projekt manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.adminProfil.resources
+H:\záródolgozat\zarodolgozat\projekt manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.AlkalmazottAdatModosit.resources
+H:\záródolgozat\zarodolgozat\projekt manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.alkalmazottProfil.resources
+H:\záródolgozat\zarodolgozat\projekt manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.bossFelulet.resources
+H:\záródolgozat\zarodolgozat\projekt manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.bossProfil.resources
+H:\záródolgozat\zarodolgozat\projekt manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.dolgozoFelvetele.resources
+H:\záródolgozat\zarodolgozat\projekt manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.dolgozoiFelulet.resources
+H:\záródolgozat\zarodolgozat\projekt manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.feladataim.resources
+H:\záródolgozat\zarodolgozat\projekt manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.feladatKiiras.resources
+H:\záródolgozat\zarodolgozat\projekt manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.feladatModosit.resources
+H:\záródolgozat\zarodolgozat\projekt manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.feladatok.resources
+H:\záródolgozat\zarodolgozat\projekt manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.feladatTorlese.resources
+H:\záródolgozat\zarodolgozat\projekt manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.jelenlegiMunkatarsak.resources
+H:\záródolgozat\zarodolgozat\projekt manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.menu.resources
+H:\záródolgozat\zarodolgozat\projekt manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.Login.resources
+H:\záródolgozat\zarodolgozat\projekt manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.Properties.Resources.resources
+H:\záródolgozat\zarodolgozat\projekt manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.sugo.resources
+H:\záródolgozat\zarodolgozat\projekt manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.torles.resources
+H:\záródolgozat\zarodolgozat\projekt manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.ujUzenet.resources
+H:\záródolgozat\zarodolgozat\projekt manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.uzeneteim.resources
+H:\záródolgozat\zarodolgozat\projekt manager\projekt_manager\projekt_manager\obj\Debug\ForeMan.csproj.GenerateResource.cache
+H:\záródolgozat\zarodolgozat\projekt manager\projekt_manager\projekt_manager\obj\Debug\ForeMan.csproj.CoreCompileInputs.cache
+H:\záródolgozat\zarodolgozat\projekt manager\projekt_manager\projekt_manager\obj\Debug\ForeMan.csproj.CopyComplete
+H:\záródolgozat\zarodolgozat\projekt manager\projekt_manager\projekt_manager\bin\Debug\projekt_manager.exe.config
+H:\záródolgozat\zarodolgozat\projekt manager\projekt_manager\projekt_manager\bin\Debug\projekt_manager.exe
+H:\záródolgozat\zarodolgozat\projekt manager\projekt_manager\projekt_manager\bin\Debug\projekt_manager.pdb
+H:\záródolgozat\zarodolgozat\projekt manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.exe
+H:\záródolgozat\zarodolgozat\projekt manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.pdb
+C:\Users\Asus\Documents\zarodolgozat\projekt manager\projekt_manager\projekt_manager\bin\Debug\projekt_manager.exe.config
+C:\Users\Asus\Documents\zarodolgozat\projekt manager\projekt_manager\projekt_manager\bin\Debug\projekt_manager.exe
+C:\Users\Asus\Documents\zarodolgozat\projekt manager\projekt_manager\projekt_manager\bin\Debug\projekt_manager.pdb
+C:\Users\Asus\Documents\zarodolgozat\projekt manager\projekt_manager\projekt_manager\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Asus\Documents\zarodolgozat\projekt manager\projekt_manager\projekt_manager\bin\Debug\EntityFramework.dll
+C:\Users\Asus\Documents\zarodolgozat\projekt manager\projekt_manager\projekt_manager\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Asus\Documents\zarodolgozat\projekt manager\projekt_manager\projekt_manager\bin\Debug\Google.Protobuf.dll
+C:\Users\Asus\Documents\zarodolgozat\projekt manager\projekt_manager\projekt_manager\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Asus\Documents\zarodolgozat\projekt manager\projekt_manager\projekt_manager\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Asus\Documents\zarodolgozat\projekt manager\projekt_manager\projekt_manager\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Asus\Documents\zarodolgozat\projekt manager\projekt_manager\projekt_manager\bin\Debug\MySql.Data.dll
+C:\Users\Asus\Documents\zarodolgozat\projekt manager\projekt_manager\projekt_manager\bin\Debug\Renci.SshNet.dll
+C:\Users\Asus\Documents\zarodolgozat\projekt manager\projekt_manager\projekt_manager\bin\Debug\System.Buffers.dll
+C:\Users\Asus\Documents\zarodolgozat\projekt manager\projekt_manager\projekt_manager\bin\Debug\System.Data.SQLite.dll
+C:\Users\Asus\Documents\zarodolgozat\projekt manager\projekt_manager\projekt_manager\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Asus\Documents\zarodolgozat\projekt manager\projekt_manager\projekt_manager\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Asus\Documents\zarodolgozat\projekt manager\projekt_manager\projekt_manager\bin\Debug\System.Memory.dll
+C:\Users\Asus\Documents\zarodolgozat\projekt manager\projekt_manager\projekt_manager\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Asus\Documents\zarodolgozat\projekt manager\projekt_manager\projekt_manager\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Asus\Documents\zarodolgozat\projekt manager\projekt_manager\projekt_manager\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\Asus\Documents\zarodolgozat\projekt manager\projekt_manager\projekt_manager\bin\Debug\Zstandard.Net.dll
+C:\Users\Asus\Documents\zarodolgozat\projekt manager\projekt_manager\projekt_manager\bin\Debug\EntityFramework.xml
+C:\Users\Asus\Documents\zarodolgozat\projekt manager\projekt_manager\projekt_manager\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Asus\Documents\zarodolgozat\projekt manager\projekt_manager\projekt_manager\bin\Debug\Google.Protobuf.pdb
+C:\Users\Asus\Documents\zarodolgozat\projekt manager\projekt_manager\projekt_manager\bin\Debug\Google.Protobuf.xml
+C:\Users\Asus\Documents\zarodolgozat\projekt manager\projekt_manager\projekt_manager\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\Asus\Documents\zarodolgozat\projekt manager\projekt_manager\projekt_manager\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\Asus\Documents\zarodolgozat\projekt manager\projekt_manager\projekt_manager\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\Asus\Documents\zarodolgozat\projekt manager\projekt_manager\projekt_manager\bin\Debug\MySql.Data.xml
+C:\Users\Asus\Documents\zarodolgozat\projekt manager\projekt_manager\projekt_manager\bin\Debug\Renci.SshNet.xml
+C:\Users\Asus\Documents\zarodolgozat\projekt manager\projekt_manager\projekt_manager\bin\Debug\System.Buffers.xml
+C:\Users\Asus\Documents\zarodolgozat\projekt manager\projekt_manager\projekt_manager\bin\Debug\System.Data.SQLite.xml
+C:\Users\Asus\Documents\zarodolgozat\projekt manager\projekt_manager\projekt_manager\bin\Debug\System.Memory.xml
+C:\Users\Asus\Documents\zarodolgozat\projekt manager\projekt_manager\projekt_manager\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Asus\Documents\zarodolgozat\projekt manager\projekt_manager\projekt_manager\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Asus\Documents\zarodolgozat\projekt manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.AdminAdatModosit.resources
+C:\Users\Asus\Documents\zarodolgozat\projekt manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.adminfelulet.resources
+C:\Users\Asus\Documents\zarodolgozat\projekt manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.adminFelvetel.resources
+C:\Users\Asus\Documents\zarodolgozat\projekt manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.adminProfil.resources
+C:\Users\Asus\Documents\zarodolgozat\projekt manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.AlkalmazottAdatModosit.resources
+C:\Users\Asus\Documents\zarodolgozat\projekt manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.alkalmazottProfil.resources
+C:\Users\Asus\Documents\zarodolgozat\projekt manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.bossFelulet.resources
+C:\Users\Asus\Documents\zarodolgozat\projekt manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.bossProfil.resources
+C:\Users\Asus\Documents\zarodolgozat\projekt manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.dolgozoFelvetele.resources
+C:\Users\Asus\Documents\zarodolgozat\projekt manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.dolgozoiFelulet.resources
+C:\Users\Asus\Documents\zarodolgozat\projekt manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.feladataim.resources
+C:\Users\Asus\Documents\zarodolgozat\projekt manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.feladatKiiras.resources
+C:\Users\Asus\Documents\zarodolgozat\projekt manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.feladatModosit.resources
+C:\Users\Asus\Documents\zarodolgozat\projekt manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.feladatok.resources
+C:\Users\Asus\Documents\zarodolgozat\projekt manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.feladatTorlese.resources
+C:\Users\Asus\Documents\zarodolgozat\projekt manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.jelenlegiMunkatarsak.resources
+C:\Users\Asus\Documents\zarodolgozat\projekt manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.menu.resources
+C:\Users\Asus\Documents\zarodolgozat\projekt manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.Login.resources
+C:\Users\Asus\Documents\zarodolgozat\projekt manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.Properties.Resources.resources
+C:\Users\Asus\Documents\zarodolgozat\projekt manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.sugo.resources
+C:\Users\Asus\Documents\zarodolgozat\projekt manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.torles.resources
+C:\Users\Asus\Documents\zarodolgozat\projekt manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.ujUzenet.resources
+C:\Users\Asus\Documents\zarodolgozat\projekt manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.uzeneteim.resources
+C:\Users\Asus\Documents\zarodolgozat\projekt manager\projekt_manager\projekt_manager\obj\Debug\ForeMan.csproj.GenerateResource.cache
+C:\Users\Asus\Documents\zarodolgozat\projekt manager\projekt_manager\projekt_manager\obj\Debug\ForeMan.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Documents\zarodolgozat\projekt manager\projekt_manager\projekt_manager\obj\Debug\ForeMan.csproj.CopyComplete
+C:\Users\Asus\Documents\zarodolgozat\projekt manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.exe
+C:\Users\Asus\Documents\zarodolgozat\projekt manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.pdb
+C:\Users\Asus\Documents\zarodolgozat\projekt manager\projekt_manager\projekt_manager\obj\Debug\ForeMan.csprojAssemblyReference.cache
+C:\Users\user\Desktop\Zárodolgozat\Záródolgozat\projekt_manager\projekt_manager\projekt_manager\bin\Debug\projekt_manager.exe.config
+C:\Users\user\Desktop\Zárodolgozat\Záródolgozat\projekt_manager\projekt_manager\projekt_manager\bin\Debug\projekt_manager.exe
+C:\Users\user\Desktop\Zárodolgozat\Záródolgozat\projekt_manager\projekt_manager\projekt_manager\bin\Debug\projekt_manager.pdb
+C:\Users\user\Desktop\Zárodolgozat\Záródolgozat\projekt_manager\projekt_manager\projekt_manager\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\user\Desktop\Zárodolgozat\Záródolgozat\projekt_manager\projekt_manager\projekt_manager\bin\Debug\EntityFramework.dll
+C:\Users\user\Desktop\Zárodolgozat\Záródolgozat\projekt_manager\projekt_manager\projekt_manager\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\Zárodolgozat\Záródolgozat\projekt_manager\projekt_manager\projekt_manager\bin\Debug\Google.Protobuf.dll
+C:\Users\user\Desktop\Zárodolgozat\Záródolgozat\projekt_manager\projekt_manager\projekt_manager\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\user\Desktop\Zárodolgozat\Záródolgozat\projekt_manager\projekt_manager\projekt_manager\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\user\Desktop\Zárodolgozat\Záródolgozat\projekt_manager\projekt_manager\projekt_manager\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\user\Desktop\Zárodolgozat\Záródolgozat\projekt_manager\projekt_manager\projekt_manager\bin\Debug\MySql.Data.dll
+C:\Users\user\Desktop\Zárodolgozat\Záródolgozat\projekt_manager\projekt_manager\projekt_manager\bin\Debug\Renci.SshNet.dll
+C:\Users\user\Desktop\Zárodolgozat\Záródolgozat\projekt_manager\projekt_manager\projekt_manager\bin\Debug\System.Buffers.dll
+C:\Users\user\Desktop\Zárodolgozat\Záródolgozat\projekt_manager\projekt_manager\projekt_manager\bin\Debug\System.Data.SQLite.dll
+C:\Users\user\Desktop\Zárodolgozat\Záródolgozat\projekt_manager\projekt_manager\projekt_manager\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\user\Desktop\Zárodolgozat\Záródolgozat\projekt_manager\projekt_manager\projekt_manager\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\user\Desktop\Zárodolgozat\Záródolgozat\projekt_manager\projekt_manager\projekt_manager\bin\Debug\System.Memory.dll
+C:\Users\user\Desktop\Zárodolgozat\Záródolgozat\projekt_manager\projekt_manager\projekt_manager\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\user\Desktop\Zárodolgozat\Záródolgozat\projekt_manager\projekt_manager\projekt_manager\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\user\Desktop\Zárodolgozat\Záródolgozat\projekt_manager\projekt_manager\projekt_manager\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\user\Desktop\Zárodolgozat\Záródolgozat\projekt_manager\projekt_manager\projekt_manager\bin\Debug\Zstandard.Net.dll
+C:\Users\user\Desktop\Zárodolgozat\Záródolgozat\projekt_manager\projekt_manager\projekt_manager\bin\Debug\EntityFramework.xml
+C:\Users\user\Desktop\Zárodolgozat\Záródolgozat\projekt_manager\projekt_manager\projekt_manager\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\Zárodolgozat\Záródolgozat\projekt_manager\projekt_manager\projekt_manager\bin\Debug\Google.Protobuf.pdb
+C:\Users\user\Desktop\Zárodolgozat\Záródolgozat\projekt_manager\projekt_manager\projekt_manager\bin\Debug\Google.Protobuf.xml
+C:\Users\user\Desktop\Zárodolgozat\Záródolgozat\projekt_manager\projekt_manager\projekt_manager\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\user\Desktop\Zárodolgozat\Záródolgozat\projekt_manager\projekt_manager\projekt_manager\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\user\Desktop\Zárodolgozat\Záródolgozat\projekt_manager\projekt_manager\projekt_manager\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\user\Desktop\Zárodolgozat\Záródolgozat\projekt_manager\projekt_manager\projekt_manager\bin\Debug\MySql.Data.xml
+C:\Users\user\Desktop\Zárodolgozat\Záródolgozat\projekt_manager\projekt_manager\projekt_manager\bin\Debug\Renci.SshNet.xml
+C:\Users\user\Desktop\Zárodolgozat\Záródolgozat\projekt_manager\projekt_manager\projekt_manager\bin\Debug\System.Buffers.xml
+C:\Users\user\Desktop\Zárodolgozat\Záródolgozat\projekt_manager\projekt_manager\projekt_manager\bin\Debug\System.Data.SQLite.xml
+C:\Users\user\Desktop\Zárodolgozat\Záródolgozat\projekt_manager\projekt_manager\projekt_manager\bin\Debug\System.Memory.xml
+C:\Users\user\Desktop\Zárodolgozat\Záródolgozat\projekt_manager\projekt_manager\projekt_manager\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\user\Desktop\Zárodolgozat\Záródolgozat\projekt_manager\projekt_manager\projekt_manager\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\user\Desktop\Zárodolgozat\Záródolgozat\projekt_manager\projekt_manager\projekt_manager\obj\Debug\ForeMan.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Zárodolgozat\Záródolgozat\projekt_manager\projekt_manager\projekt_manager\obj\Debug\ForeMan.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\Desktop\Zárodolgozat\Záródolgozat\projekt_manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.AdminAdatModosit.resources
+C:\Users\user\Desktop\Zárodolgozat\Záródolgozat\projekt_manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.adminfelulet.resources
+C:\Users\user\Desktop\Zárodolgozat\Záródolgozat\projekt_manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.adminFelvetel.resources
+C:\Users\user\Desktop\Zárodolgozat\Záródolgozat\projekt_manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.adminProfil.resources
+C:\Users\user\Desktop\Zárodolgozat\Záródolgozat\projekt_manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.AlkalmazottAdatModosit.resources
+C:\Users\user\Desktop\Zárodolgozat\Záródolgozat\projekt_manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.alkalmazottProfil.resources
+C:\Users\user\Desktop\Zárodolgozat\Záródolgozat\projekt_manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.bossFelulet.resources
+C:\Users\user\Desktop\Zárodolgozat\Záródolgozat\projekt_manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.bossProfil.resources
+C:\Users\user\Desktop\Zárodolgozat\Záródolgozat\projekt_manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.dolgozoFelvetele.resources
+C:\Users\user\Desktop\Zárodolgozat\Záródolgozat\projekt_manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.dolgozoiFelulet.resources
+C:\Users\user\Desktop\Zárodolgozat\Záródolgozat\projekt_manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.feladataim.resources
+C:\Users\user\Desktop\Zárodolgozat\Záródolgozat\projekt_manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.feladatKiiras.resources
+C:\Users\user\Desktop\Zárodolgozat\Záródolgozat\projekt_manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.feladatModosit.resources
+C:\Users\user\Desktop\Zárodolgozat\Záródolgozat\projekt_manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.feladatok.resources
+C:\Users\user\Desktop\Zárodolgozat\Záródolgozat\projekt_manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.feladatTorlese.resources
+C:\Users\user\Desktop\Zárodolgozat\Záródolgozat\projekt_manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.jelenlegiMunkatarsak.resources
+C:\Users\user\Desktop\Zárodolgozat\Záródolgozat\projekt_manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.menu.resources
+C:\Users\user\Desktop\Zárodolgozat\Záródolgozat\projekt_manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.Login.resources
+C:\Users\user\Desktop\Zárodolgozat\Záródolgozat\projekt_manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.Properties.Resources.resources
+C:\Users\user\Desktop\Zárodolgozat\Záródolgozat\projekt_manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.sugo.resources
+C:\Users\user\Desktop\Zárodolgozat\Záródolgozat\projekt_manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.torles.resources
+C:\Users\user\Desktop\Zárodolgozat\Záródolgozat\projekt_manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.ujUzenet.resources
+C:\Users\user\Desktop\Zárodolgozat\Záródolgozat\projekt_manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.uzeneteim.resources
+C:\Users\user\Desktop\Zárodolgozat\Záródolgozat\projekt_manager\projekt_manager\projekt_manager\obj\Debug\ForeMan.csproj.GenerateResource.cache
+C:\Users\user\Desktop\Zárodolgozat\Záródolgozat\projekt_manager\projekt_manager\projekt_manager\obj\Debug\ForeMan.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Zárodolgozat\Záródolgozat\projekt_manager\projekt_manager\projekt_manager\obj\Debug\ForeMan.csproj.CopyComplete
+C:\Users\user\Desktop\Zárodolgozat\Záródolgozat\projekt_manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.exe
+C:\Users\user\Desktop\Zárodolgozat\Záródolgozat\projekt_manager\projekt_manager\projekt_manager\obj\Debug\projekt_manager.pdb

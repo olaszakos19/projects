@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" th:href="@{/css/users_style.css}">
+  <title>Ügyfelek</title>
+</head>
+
+<body>
+  <form action="/go_to" method="post">
+    <input type="hidden" name="oldal" value="admin">
+    <button type="submit">Vissza a fő oldalra</button>
+</form>
+
+  <h2>Ügyelek nyilvántartása</h2>
+
+  <table border="1">
+    <tr>
+      <th>Név</th>
+      <th>Email cím</th>
+      <th>Telefonszám</th>
+      <th>Action</th>
+    </tr>
+
+    <tr th:each="user : ${users}">
+      <td th:text="${user.vezeteknev + ' ' + user.keresztnev}"></td>
+      <td th:text="${user.email}"></td>
+      <td th:text="${user.telefonszam}"></td>
+      <td>
+        <button th:attr="data-userid=${user.id}" onclick="chgUser(this)">
+          Módosít
+        </button>
+        <form action="/deleteUser" method="post">
+          <input type="hidden" th:value="${user.id}" name="userId">
+          <button type="submit">Töröl</button>
+        </form>
+
+      </td>
+    </tr>
+  </table>
+
+
+
+
+  <script>
+
+    function chgUser(id) {
+      var userid = id;
+      window.location = "/user" / +userid;
+    }
+  </script>
+</body>
+
+</html>

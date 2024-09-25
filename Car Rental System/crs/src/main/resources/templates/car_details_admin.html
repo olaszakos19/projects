@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="cardata2.css">
+    <link rel="stylesheet" th:href="@{/css/car_details_style.css}">
+    <script defer src="lightbox.js"></script>
+    <title>Autó adatok</title>
+</head>
+<body>
+    <form action="/go_to" method="post">
+        <input type="hidden" name="oldal" value="admin">
+        <button type="submit">Vissza a fő oldalra</button>
+    </form>
+
+    <header>
+        <h1 th:text="${car.marka}">ide lehetne nyomatni egy ilyen cimet az auzo markajaval</h1>
+        <h1 th:text="${car.tipus}">meg a tipusaval</h1>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="inner-column">
+                    <h2>Ár, költségek</h2>
+                    <ul>
+                        <li>Bérlési költség: <span th:text="${car.cost}"></span>Ft</li>
+                    </ul>
+                    <h2><br>Általános adatok</h2>
+                    <ul>
+                        <li>Évjárat: <span th:text="${car.evjarat}"></span></li>
+                        <li>Kivitel: <span th:text="${car.kivitel == 1 ? 'Szedán' : car.kivitel == 2 ? 'Kupé' : car.kivitel == 3 ? 'Kabrió' : car.kivitel == 3 ? 'Kombi' : 'Terepjáró'}"></span></li>
+                    </ul>
+                    <h2><br>Jármű adatok</h2>
+                    <ul>
+                        <li>Ülések száma: <span th:text="${car.ulesek_szama}"></span></li>
+                        <li>Ajtók száma: <span th:text="${car.ajtok_szama}"></span></li>
+                    </ul>
+                    <h2><br>Motor adatok</h2>
+                    <ul>
+                        <li>Üzemanyag: <span th:text="${car.fuel_type == 1 ? 'Benzin' : car.fuel_type == 2 ? 'Dízel' : car.fuel_type == 3 ? 'Hibrid' : 'Elektromos'}"></span></li>
+                        <li>Teljesítmény: <span th:text="${car.loero}"></span> LE</li>
+                        <form action="/update_le" method="POST">
+                            <input type="text" name="newLe">
+                            <input type="hidden" th:value="${car.AutoID}" name="AutoID">
+                            <button type="submit">Módosít</button>
+                        </form>
+                    </ul>
+                    <h2><br>Bérlési költség</h2>
+                    <ul>
+                        <li>Jelenlegi: <span th:text="${car.cost}"></span></li>
+                        <form action="/update_cost" method="POST">
+                            <input type="text" name="newCost">
+                            <input type="hidden" th:value="${car.AutoID}" name="AutoID">
+                            <button type="submit">Módosít</button>
+                        </form>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div id="imageCarousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img th:src="${img1}" class="d-block w-100" alt="Kép 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img th:src="${img2}" class="d-block w-100" alt="Kép 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img th:src="${img3}"class="d-block w-100" alt="Kép 3">
+                        </div>
+
+                    </div>
+                    <a class="carousel-control-prev" href="#imageCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#imageCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <form action="/update_damage" method="post">
+        <input type="hidden" th:value="${car.AutoID}" name="AutoID">
+        <input type="hidden" th:value="${car.is_damaged == 1 ? 0 : 1}" name="newDamage">
+        <button type="submit">
+            <span th:text="${car.is_damaged == 1 ? 'Javítva' : 'Sérült'}"></span>
+        </button>
+    </form>
+    
+
+</body>
+</html>
