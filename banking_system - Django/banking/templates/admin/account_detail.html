@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}Account Details{% endblock %}
+
+{% block content %}
+<h1>Account Details</h1>
+<p>Account Number: {{ account.account_number }}</p>
+<p>Balance: {{ account.balance }}</p>
+<a href="{% url 'account_edit' account.pk %}">Edit Account</a>
+<form method="post" action="{% url 'account_delete' account.pk %}">
+    {% csrf_token %}
+    <button type="submit">Delete Account</button>
+</form>
+<a href="{% url 'account_list' %}">Back to Account List</a>
+
+{% endblock %}

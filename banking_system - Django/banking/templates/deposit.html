@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% load static %}      
+<link rel="stylesheet" type="text/css" href="{% static 'css/forms.css' %}">
+
+  <h2>Pénz hozzáadása számlához</h2>
+  <p>Egyenleg: {{ account.balance }}</p>
+
+  <form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Hozzáadás</button>
+  </form>
+
+  {% if messages %}
+    <ul>
+      {% for message in messages %}
+        <li>{{ message }}</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+{% endblock %}

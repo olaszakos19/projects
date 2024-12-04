@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>{% block title %}Banking System{% endblock %}</title> 
+    {% load static %}      
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css/' %}">
+    
+</head>
+
+<body>
+    {% if user.is_authenticated %}
+    <header>
+        <nav>
+            <ul>
+                
+                <li><a href="{% url 'home' %}">Home</a></li>
+                {% if not user.is_staff %}
+                <li><a href="{% url 'account_list' %}">Számláim</a></li>
+                <li><a href="{% url 'profile' %}">Profilom</a></li>
+
+                
+                
+                <div class="user-info">
+                    
+                    {% if user.profile.profile_picture %}
+                        <img src="{{ user.profile.profile_picture.url }}" alt="Profile Picture" width="50" height="50">
+                        
+                    {% else %}
+                        <!--<img src="{% static 'images/default_profile.png' %}" alt="Default Profile Picture" width="50" height="50">-->
+                      
+                    {% endif %}
+
+                    <p>Név:<br>{{ user.username }}</p>
+                    
+                    <p>
+                        Számlaszám:<br> {{user.profile.active_account.account_number}}
+                    </p>
+                    
+                    <p>
+                        Egyenleged:<br> 
+                        {% if user.profile.show_balance and user.profile.active_account %}
+                            {{ user.profile.active_account.balance }}
+                        {% else %}
+                            ****
+                        {% endif %}
+                    </p>
+
+                   
+                    <form method="post" action="{% url 'toggle_balance' %}">
+                        {% csrf_token %}
+                        <label>
+                            <input type="checkbox" name="show_balance" onchange="this.form.submit()" {% if user.profile.show_balance %}checked{% endif %}>
+                            {% if user.profile.show_balance %}
+                            Elrejtés
+                            {% endif %}
+                            
+                            {% if not user.profile.show_balance %}
+                            Mutasd
+                            {% endif %}
+
+                        </label>
+                    </form>
+
+                    
+                {%endif%}
+                    <a href="{% url 'logout' %}">Logout</a>
+               
+                </div>
+                
+            </ul>
+        </nav>
+    </header>
+    {% endif %}
+    {% block content %}
+
+    {% endblock %}
+</body>
+
+</html>
