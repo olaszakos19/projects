@@ -3,7 +3,6 @@
 namespace Database\Seeders;
 
 use App\Models\User;
-use App\Models\Table;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
@@ -16,18 +15,9 @@ class DatabaseSeeder extends Seeder
     {
         // User::factory(10)->create();
 
-        User::create([
+        User::factory()->create([
             'name' => 'Test User',
-            'email' => 'akos.olasz17@gmail.com',
-            'password' => 'test',
+            'email' => 'test@example.com',
         ]);
-
-        // Táblázat létrehozása
-        Table::create([
-            'title' => 'To-do-list',
-            'user_id' => 1, // Feltételezve, hogy az első felhasználó az ID=1
-        ]);
-
-
     }
 }

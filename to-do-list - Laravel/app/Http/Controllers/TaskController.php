@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Task;
+use App\Models\Table;
 use Illuminate\Support\Facades\Session;
 use Carbon\Carbon;
 
@@ -11,21 +12,22 @@ class TaskController extends Controller
 {
     //
 
-    public function showTasks(){
-
+    public function showTasks($table_id)
+    {
         if (!Session::has('user')) {
             return redirect()->route('login_page')->with('error', 'You must be logged in to access this page.');
         }
 
         $user = Session::get('user');
+        //$table = Table::where('id',$table_id);
+        Session::put('table_id', $table_id);
+        $toDoTasks = Task::where('status', 0)->where('table_id', $table_id)->get();
+        $ongoingTask = Task::where('status', 1)->where('table_id', $table_id)->get();
+        $finishedTasks = Task::where('status', 2)->where('table_id', $table_id)->get();
 
-        $toDoTasks = Task::where('status',0)->where('user_id',$user->id)->get();
-        $ongoingTask = Task::where('status',1)->where('user_id',$user->id)->get();
-        $finsihedTasks = Task::where('status',2)->where('user_id',$user->id)->get();
+        $this->AutoDelete($finishedTasks);
 
-        $this->AutoDelete($finsihedTasks);
-
-        return view('task_list',compact('toDoTasks','ongoingTask','finsihedTasks'));
+        return view('tasks.list', compact('toDoTasks', 'ongoingTask', 'finishedTasks'));
     }
 
 
@@ -44,7 +46,7 @@ class TaskController extends Controller
     }
 
     public function goToCreate(){
-        return view('create_task');
+        return view('tasks.create');
     }
 
     public function showTask($id){
@@ -53,7 +55,7 @@ class TaskController extends Controller
             return redirect()->route('login_page')->with('error', 'You must be logged in to access this page.');
         }
         $task = Task::find($id);
-        return view('task_detail',['task' => $task]);
+        return view('tasks.detail',['task' => $task]);
 
     }
 
@@ -88,10 +90,12 @@ class TaskController extends Controller
             return redirect()->route('login_page')->with('error', 'You must be logged in to access this page.');
         }
         $user = Session::get('user');
+        $table_id = Session::get('table_id');
         $task = $request->all();
-        $task['user_id'] = $user->id;
+        $task['table_id'] = $table_id;
         Task::create($task);
 
-        return redirect()->route('create_task')->with('success', 'Task created successfully!');
+        return redirect()->route('show_tasks', ['table_id' => $table_id])->with('success', 'Task created successfully!');
+
     }
 }

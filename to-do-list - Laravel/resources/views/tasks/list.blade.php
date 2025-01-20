@@ -120,8 +120,10 @@
 
     @include('alert')
 
-    <a href='/tasks/create'>Új feladat létrehozása</a><br>
+    <a href='/create'>Create Task</a><br>
+    <a href='/tables'>Vissza a táblákra</a><br>
     <a href='/logout'>Kijelentkezés</a><br>
+
 
 
     <div class="parent">
@@ -143,7 +145,7 @@
 
         <div class="div5">Done</div>
         <div class="div6">
-        @foreach ($finsihedTasks as $fTask)
+        @foreach ($finishedTasks as $fTask)
             <a href="/task/{{$fTask->id}}"> {{$fTask->title}}</a><br>
 
          @endforeach

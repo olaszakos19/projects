@@ -1,0 +1,106 @@
+section[name="menu"] {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 150px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+section[name="menu"] a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 140%
+}
+
+section[name="popular"] {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 170px;
+}
+
+section[name="popular"] .card {
+    flex: 0 0 calc(50% - 20px);
+    margin: 10px;
+    text-decoration: none;
+    color: #333;
+    background-color: #f0f0f0;
+    /* Kártya háttérszíne */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    /* Árnyékolás */
+    transition: box-shadow 0.3s ease;
+    /* Árnyékolás animációja */
+    width: 150px;
+    height: 200px;
+}
+
+section[name="popular"] .card:hover {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    /* Hover állapotban nagyobb árnyék */
+}
+
+section[name="popular"] img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+section[name="popular"] .card>div {
+    padding: 10px;
+    /* Tartalom belső térköze */
+}
+
+a{
+    text-decoration: none;
+
+}
+section[name="main"] {
+    margin-left: 170px;
+    padding: 20px;
+}
+
+section[name="main"] h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+section[name="main"] p {
+    margin-bottom: 15px;
+}
+
+section[name="main"] img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+section[name="main"] [name="other-attractions"] {
+    margin-top: 20px;
+}
+
+section[name="main"] [name="other-attractions"] h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+section[name="main"] [name="other-attractions"] ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section[name="main"] [name="other-attractions"] ul li {
+    margin-bottom: 5px;
+    font-weight: bold;
+}

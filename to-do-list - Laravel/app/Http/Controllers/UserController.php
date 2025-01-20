@@ -53,7 +53,7 @@ class UserController extends Controller
 
         if ($user && $user->email == $email && $user->password == $password){
             Session::put('user',$user);
-            return redirect()->route('show_tasks')->with('success','You have succesfully logged in');
+            return redirect()->route('show_tables')->with('success','You have succesfully logged in');
         }
 
 
@@ -65,6 +65,7 @@ class UserController extends Controller
 
     public function LogOut(){
         Session::forget('user');
+        Session::forget('table_id');
         return redirect()->route('login_page')->with('success', 'You have been logged out.');
     }
 }

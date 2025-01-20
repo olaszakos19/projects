@@ -20,16 +20,6 @@ return new class extends Migration
             $table->rememberToken();
         });
 
-        Schema::create('tasks', function (Blueprint $table) {
-            $table->id();
-            $table->string('title');
-            $table->string('description')->nullable();
-            $table->tinyInteger('status')->default(0);
-            $table->date('due_date');
-            $table->foreignId('user_id')->constrained('users')->onDelete('cascade'); // Foreign key
-            $table->timestamps();
-        });
-
         Schema::create('password_reset_tokens', function (Blueprint $table) {
             $table->string('email')->primary();
             $table->string('token');
