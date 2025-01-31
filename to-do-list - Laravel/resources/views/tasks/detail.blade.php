@@ -92,7 +92,7 @@
     </style>
 </head>
 <body>
-    <a href="/tasks/show">Vissza a fő oldalra</a>
+    <a href="/tasks/{{$task->table_id}}">Vissza a fő oldalra</a>
     <div class="parent">
         <div class="div1">Feladat neve: {{$task->title}}</div>
         <div class="div2">Határidő: {{$task->due_date}}</div>

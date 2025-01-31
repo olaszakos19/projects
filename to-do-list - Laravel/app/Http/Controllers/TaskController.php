@@ -70,7 +70,7 @@ class TaskController extends Controller
             'status' => $task->status+1
         ]);
 
-        return redirect()->route('show_tasks')->with('success','Task updated succesfully');
+        return redirect()->route('show_tasks',['table_id' => $task->table_id])->with('success','Task updated succesfully');
 
     }
 
@@ -81,7 +81,7 @@ class TaskController extends Controller
         $task = Task::find($id);
         $task->delete();
 
-        return redirect()->route('show_tasks')->with('success','Task deleted succesfully');
+        return redirect()->route('show_tasks',['table_id' => $task->table_id])->with('success','Task deleted succesfully');
 
     }
 

@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
 </head>
 <body>
-    <a href="/tasks/show">Vissza a fő oldalra</a>
+    <a href="/tables">Vissza a fő oldalra</a>
     <div class="container mt-5">
         <h1>Create a New Table</h1>
 

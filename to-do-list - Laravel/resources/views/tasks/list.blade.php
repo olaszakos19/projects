@@ -1,13 +1,14 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Tasks</title>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
     <style>
         body {
@@ -43,14 +44,21 @@
             margin: 0 auto;
         }
 
-        .div1, .div2, .div3, .div4, .div5, .div6 {
+        .div1,
+        .div2,
+        .div3,
+        .div4,
+        .div5,
+        .div6 {
             background-color: #ffffff;
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
         }
 
-        .div1, .div3, .div5 {
+        .div1,
+        .div3,
+        .div5 {
             font-size: 1.5em;
             font-weight: bold;
             text-align: center;
@@ -58,7 +66,9 @@
             border: 2px solid #e0e0e0;
         }
 
-        .div2, .div4, .div6 {
+        .div2,
+        .div4,
+        .div6 {
             font-size: 1.1em;
             color: #555;
         }
@@ -102,6 +112,13 @@
             margin-bottom: 0;
         }
 
+        .nav-link {
+            color: black;
+        }
+
+        .nav {
+            padding-bottom: 5%;
+        }
 
         @media (max-width: 768px) {
             .parent {
@@ -109,50 +126,57 @@
                 grid-template-rows: auto;
             }
 
-            .div1, .div3, .div5 {
+            .div1,
+            .div3,
+            .div5 {
                 font-size: 1.2em;
             }
         }
     </style>
 
 </head>
+
 <body>
 
     @include('alert')
 
-    <a href='/create'>Create Task</a><br>
-    <a href='/tables'>Vissza a táblákra</a><br>
-    <a href='/logout'>Kijelentkezés</a><br>
+    <ul class="nav">
+        <li class="nav-item">
+            <a class="nav-link" href='/create'>Feladat hozzáadása</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href='/tables'>Vissza a táblákra</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href='/logout'>Kijelentkezés</a>
+        </li>
 
-
+    </ul>
 
     <div class="parent">
         <div class="div1">To-Do </div>
         <div class="div2">
-        @foreach ($toDoTasks as $task)
-           <a href="/task/{{$task->id}}"> {{$task->title}}</a><br>
-
-        @endforeach
+            @foreach ($toDoTasks as $task)
+                <a href="/task/{{ $task->id }}"> {{ $task->title }}</a><br>
+            @endforeach
         </div>
 
         <div class="div3">Doing</div>
         <div class="div4">
-        @foreach ($ongoingTask as $oTask)
-            <a href="/task/{{$oTask->id}}"> {{$oTask->title}}</a><br>
-
-         @endforeach
+            @foreach ($ongoingTask as $oTask)
+                <a href="/task/{{ $oTask->id }}"> {{ $oTask->title }}</a><br>
+            @endforeach
         </div>
 
         <div class="div5">Done</div>
         <div class="div6">
-        @foreach ($finishedTasks as $fTask)
-            <a href="/task/{{$fTask->id}}"> {{$fTask->title}}</a><br>
-
-         @endforeach
+            @foreach ($finishedTasks as $fTask)
+                <a href="/task/{{ $fTask->id }}"> {{ $fTask->title }}</a><br>
+            @endforeach
         </div>
 
     </div>
 
 </body>
-</html>
 
+</html>

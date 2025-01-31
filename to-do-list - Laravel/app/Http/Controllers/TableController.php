@@ -54,5 +54,11 @@ class TableController extends Controller
 
     }
     */
+    public function destroy($table_id)
+    {
+        $table = Table::findOrFail($table_id);
+        $table->delete();
 
+        return redirect()->route('show_tables')->with('success', 'A tábla sikeresen törölve!');
+    }
 }
