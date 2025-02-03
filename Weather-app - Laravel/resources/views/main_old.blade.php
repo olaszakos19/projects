@@ -3,7 +3,7 @@
 @section('content')
 
 @push('styles')
-    <link href="{{ asset('/css/asd.css') }}" rel="stylesheet">
+    <link href="{{ asset('/css/mainnn.css') }}" rel="stylesheet">
 @endpush
 
 
@@ -18,7 +18,7 @@
         document.getElementById('countyDropdown').addEventListener('change', function() {
             const selectedValue = this.value;
             if (selectedValue) {
-                window.location.href = selectedValue;
+                window.location.href = selectedValue; // Redirect to the selected URL
             }
         });
     </script>
@@ -50,7 +50,6 @@
                 </a>
 
             @endforeach
-
 
 
     </section>

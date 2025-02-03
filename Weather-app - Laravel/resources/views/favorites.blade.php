@@ -2,11 +2,13 @@
 
 @section('content')
 
-
+@if (!$attractions)
+    Még nincs elmentett kedvenc
+@endif
 
 <section name="main">
     <div>
-    @foreach ($attraction as $a)
+    @foreach ($attractions as $a)
         <img src="" alt="{{$a->AttractionName}}">
 
         <h2>{{$a->AttractionName}}</h2>
@@ -15,11 +17,6 @@
 
 
         @endforeach
-    </div>
-
-    <div name="other-attractions">
-        <h3>További látványosságok a megyében:</h3>
-
     </div>
 </section>
 

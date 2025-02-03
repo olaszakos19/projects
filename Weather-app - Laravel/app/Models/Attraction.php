@@ -15,7 +15,8 @@ class Attraction extends Model
         'AttractionName',
         'County',
         'City',
-        'Address'
+        'Address',
+        'Description'
     ];
 
 

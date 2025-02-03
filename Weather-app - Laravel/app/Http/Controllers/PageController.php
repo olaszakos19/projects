@@ -7,14 +7,14 @@ use App\Models\Attraction;
 use App\Models\Visited;
 use App\Models\Favorites;
 use Illuminate\Support\Facades\DB;
-
+use Illuminate\Support\Facades\Session;
 
 class PageController extends Controller
 {
 
 
     public function LoadByCountry($county){
-        $attractions = Attraction::where('County',$county)->get();
+        $attractions = DB::table('touristattractions')->where('County',$county)->get();
 
         $counties = DB::table('touristattractions')->select('County')->groupBy('County')->get();
 
@@ -24,7 +24,7 @@ class PageController extends Controller
 
     public function LoadAll(){
         $attractions = DB::table('touristattractions')->where('County','Veszprém megye')->get();
-
+        $attractions = DB::table('touristattractions')->where('County','Veszprém megye')->paginate(3);
         $counties = DB::table('touristattractions')->select('County')->groupBy('County')->get();
 
         return view('main',compact('attractions','counties'));
@@ -35,20 +35,33 @@ class PageController extends Controller
     public function LoadAttraction($name){
         $attraction = DB::table('touristattractions')->where('AttractionName',$name)->get();
         $county = DB::table('touristattractions')->where('AttractionName',$name)->first();
-        $attractions = Attraction::where('County',$county->County)->where('AttractionName','!=',$name)->get();
+        $attractions = DB::table('touristattractions')->where('County',$county->County)->where('AttractionName','!=',$name)->get();
         return view('attraction', compact('attraction', 'attractions'));
 
 
     }
 
 
-    public function LoadFavorites(){
+    public function LoadFavorites() {
+        $user = Session::get('user');
 
+        if (!$user) {
+            return redirect()->route('login')->with('error', 'Nincs bejelentkezve');
+        }
 
-        return view('favorites');
+        $favorites = Favorites::where('userID', $user->id)->get();
+        $attractions = [];
 
+        foreach ($favorites as $f) {
+            $attraction = Attraction::where('AttractionName', $f->attractionID)->first();
+            if ($attraction) {
+                $attractions[] = $attraction;
+            }
+        }
 
+        return view('favorites', compact('favorites', 'attractions'));
     }
+
 
     public function LoadVisited(){
 
