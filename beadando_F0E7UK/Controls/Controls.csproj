@@ -1,0 +1,46 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="WinForms.DataVisualization" Version="1.10.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Data\Data.csproj" />
+    <ProjectReference Include="..\Models\Models.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="AdminControls\Users\AddUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="AdminControls\Vehicles\AdminAddCar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="AdminControls\Vehicles\AdminCarList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="AdminControls\Parkinglots\AddParkinglot.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="AdminControls\Parkinglots\ParkinglotList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="AdminControls\Users\UserList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserControls\Vehicles\AddVehicle.cs">
+      <CustomToolNamespace></CustomToolNamespace>
+    </Compile>
+    <Compile Update="UserControls\Vehicles\VehicleList.cs">
+      <CustomToolNamespace></CustomToolNamespace>
+    </Compile>
+  </ItemGroup>
+
+</Project>
