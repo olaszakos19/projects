@@ -10,6 +10,17 @@ namespace Data
 {
     public class BannedHandler
     {
+        private readonly DataContext _context;
+        public BannedHandler(DataContext context)
+        {
+            _context = context;
+        }
+
+        public BannedHandler()
+        {
+            _context = new DataContext();
+        }
+
         public string BanVehicle(Banned banned)
         {
             if (banned == null)
@@ -17,14 +28,14 @@ namespace Data
                 throw new ArgumentNullException(nameof(banned));
             }
 
-            using var context = new DataContext();
+            
 
             //lehet át kellene dolgozni
-            context.Attach(banned.vehicle);
-            context.Attach(banned.parkinglot);
+            _context.Attach(banned.vehicle);
+            _context.Attach(banned.parkinglot);
 
-            context.BannedList.Add(banned);
-            context.SaveChanges();
+            _context.BannedList.Add(banned);
+            _context.SaveChanges();
             return $"Vehicle with this licenseplate {banned.vehicle.LicensePlate} is banned from this {banned.parkinglot.Name} parkinglot";
         }
 
@@ -35,17 +46,17 @@ namespace Data
                 throw new ArgumentNullException(nameof(banned));
             }
 
-            using var context = new DataContext();
-            context.BannedList.Remove(banned);
-            context.SaveChanges();
+
+            _context.BannedList.Remove(banned);
+            _context.SaveChanges();
             return $"Vehicle with this licenseplate {banned.vehicle.LicensePlate} is unbanned from this {banned.parkinglot} parkinglot";
         }
 
         public List<Banned> BannedVehiclesInLot(Parkinglot p)
         {
             //lehet át kell írni
-            using var context = new DataContext();
-            var bannedVehiclesInParkinglot = context.BannedList
+            
+            var bannedVehiclesInParkinglot = _context.BannedList
                 .Include(b => b.vehicle)
                 .Include(b => b.parkinglot)
                 .Where(b => b.parkinglot.Id == p.Id)

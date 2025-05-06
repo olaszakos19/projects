@@ -14,9 +14,11 @@ namespace Controls.UserControls.REservation
 {
     public partial class ReservationHistory : UserControl
     {
+        VehicleHandler vehicleHandler = new();
         ReservationHandler reservationHandler = new ReservationHandler();
         ParkingHandler parkingHandler = new ParkingHandler();
         User currentUser = new();
+        private List<Reservation> allReservations = new();
 
         public ReservationHistory(User user)
         {
@@ -32,20 +34,51 @@ namespace Controls.UserControls.REservation
         {
             dataGridView1.Rows.Clear();
 
-            ReservationHandler reservationHandler = new ReservationHandler();
-            var reservations = reservationHandler.GetReservationByUserId(currentUser).Where(r => r.isEnded() == true);
-            
-            foreach (var res in reservations)
+            allReservations = reservationHandler
+                .GetReservationByUserId(currentUser)
+                .Where(r => r.isEnded())
+                .ToList();
+
+            ApplyFilters();
+        }
+
+        private void ApplyFilters()
+        {
+            dataGridView1.Rows.Clear();
+            var filtered = allReservations.AsEnumerable();
+
+            // Parkoló szűrés
+            if (parkingBox.SelectedItem is Parkinglot selectedLot)
             {
+                filtered = filtered.Where(r => r.LotId == selectedLot.Id);
+            }
+
+            // Rendszám szűrés
+            if (vehcleBox.SelectedItem is string selectedPlate && !string.IsNullOrWhiteSpace(selectedPlate))
+            {
+                filtered = filtered.Where(r => r.LicensePlate == selectedPlate);
+            }
+
+            // Dátum szűrés (pl. startDate után)
+            if (datePick.Checked)
+            {
+                DateTime selectedDate = datePick.Value.Date;
+                filtered = filtered.Where(r => r.StartDate.Date >= selectedDate);
+            }
+
+            // Grid feltöltése
+            foreach (var res in filtered)
+            {
+                var lot = parkingHandler.GettAllParkingLot().FirstOrDefault(p => p.Id == res.LotId);
                 dataGridView1.Rows.Add(
                     res.StartDate.ToString("yyyy-MM-dd HH:mm"),
                     res.EndDate.ToString("yyyy-MM-dd HH:mm"),
-                    parkingHandler.GettAllParkingLot().First(p => p.Id == res.LotId),
+                    lot?.Name ?? "Ismeretlen",
                     res.LicensePlate
                 );
             }
-            
         }
+
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -54,43 +87,31 @@ namespace Controls.UserControls.REservation
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (parkingBox.SelectedItem is Parkinglot p)
-            {
-
-            }
+            ApplyFilters();
         }
 
         private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
         {
-            /*
-            if (vehcleBox.SelectedItem is Vehicle v)
-            {
-                dataGridView1.Rows.Clear();
-
-                ReservationHandler reservationHandler = new ReservationHandler();
-                var reservations = reservationHandler.GetReservationByUserId(currentUser).Where(r => r.isEnded() == true).Where(rv => rv.LicensePlate.Equals(v.LicensePlate));
-
-                foreach (var res in reservations)
-                {
-                    dataGridView1.Rows.Add(
-                        res.StartDate.ToString("yyyy-MM-dd HH:mm"),
-                        res.EndDate.ToString("yyyy-MM-dd HH:mm"),
-                        parkingHandler.GettAllParkingLot().Where(p => p.Id == res.Id).First().Name,
-                        res.LicensePlate
-                    );
-                }
-            }
-            */
+            ApplyFilters();
         }
 
         private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
         {
-
+            ApplyFilters();
         }
 
         private void ReservationHistory_Load(object sender, EventArgs e)
         {
             fillDatagrid();
+            foreach (var v in vehicleHandler.GetVehiclesByUserId(currentUser.Id))
+            {
+                vehcleBox.Items.Add(v.LicensePlate);
+            }
+
+            foreach (var p in parkingHandler.GettAllParkingLot())
+            {
+                parkingBox.Items.Add(p);
+            }
         }
     }
 }

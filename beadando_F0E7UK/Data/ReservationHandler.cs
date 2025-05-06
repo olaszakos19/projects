@@ -205,6 +205,16 @@ namespace Data
         }
 
         /// <summary>
+        /// Vissza adja az összes foglalást
+        /// </summary>
+        public List<Reservation> GetReservations()
+        {
+            using var context = new DataContext();
+
+            return context.Reservations.ToList();
+
+        }
+        /// <summary>
         /// XML export
         /// </summary>
         public void ExportRevenue(string filePath, int month)

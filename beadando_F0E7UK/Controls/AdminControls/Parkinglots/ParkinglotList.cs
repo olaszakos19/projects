@@ -12,7 +12,7 @@ using System.Windows.Forms;
 
 namespace AdminControls.Parkinglots
 {
-    //namesapce-t átírni
+
     public partial class ParkinglotList : UserControl
     {
         BannedHandler bannedHandler = new();

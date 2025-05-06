@@ -8,14 +8,14 @@ using System.Threading.Tasks;
 
 namespace Data
 {
-    internal class DataContext : DbContext
+    public class DataContext : DbContext
     {
-        public DbSet<User> Users { get; set; }
-        public DbSet<Vehicle> Vehicles { get; set; }
-        public DbSet<Reservation> Reservations { get; set; }
-        public DbSet<Parkinglot> Parkinglots { get; set; }
-        public DbSet<Banned> BannedList { get; set; }
-        //public DbSet<Parkingspot> ParkingSpots { get; set; }
+        public virtual DbSet<User> Users { get; set; }
+        public virtual DbSet<Vehicle> Vehicles { get; set; }
+        public virtual DbSet<Reservation> Reservations { get; set; }
+        public virtual DbSet<Parkinglot> Parkinglots { get; set; }
+        public virtual DbSet<Banned> BannedList { get; set; }
+  
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

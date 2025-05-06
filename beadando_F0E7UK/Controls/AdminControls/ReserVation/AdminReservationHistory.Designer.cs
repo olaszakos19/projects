@@ -57,6 +57,7 @@
             resetBtn.TabIndex = 16;
             resetBtn.Text = "Reset";
             resetBtn.UseVisualStyleBackColor = true;
+            resetBtn.Click += resetBtn_Click;
             // 
             // label3
             // 

@@ -10,6 +10,18 @@ namespace Data
 {
     public class UserHandler
     {
+        private readonly DataContext _context;
+
+        public UserHandler(DataContext context)
+        {
+            _context = context;
+        }
+
+        public UserHandler()
+        {
+            _context = new DataContext();
+        }
+
         public string AddUser(User user)
         {
             if (user == null)
@@ -17,9 +29,9 @@ namespace Data
                 throw new ArgumentNullException(nameof(user));
             }
 
-            using var context = new DataContext();
-            context.Users.Add(user);
-            context.SaveChanges();
+
+            _context.Users.Add(user);
+            _context.SaveChanges();
             return "User added succesfully";
         }
 
@@ -30,21 +42,21 @@ namespace Data
                 throw new ArgumentNullException(nameof(user));
             }
 
-            using var context = new DataContext();
-            context.Users.Remove(user);
-            context.SaveChanges();
+          
+            _context.Users.Remove(user);
+            _context.SaveChanges();
             return "User deleted succesfully";
         }
 
-        public  string UpdateUser(User user)
+        public string UpdateUser(User user)
         {
             if (user == null)
             {
                 throw new ArgumentNullException(nameof(user));
             }
 
-            using var context = new DataContext();
-            var cust = context.Users.FirstOrDefault(u => u.Id == user.Id);
+            
+            var cust = _context.Users.FirstOrDefault(u => u.Id == user.Id);
 
             if (cust == null)
             {
@@ -56,31 +68,31 @@ namespace Data
             cust.Email = user.Email;
             cust.Password = user.Password;
 
-            context.SaveChanges();
+            _context.SaveChanges();
             return "User updated succesfully";
         }
 
-        public  List<User> GetOnlyUsers()
+        public List<User> GetOnlyUsers()
         {
-            using var context = new DataContext();
-            return context.Users.Where(u => u.isAdmin == false).ToList();
+         
+            return _context.Users.Where(u => u.isAdmin == false).ToList();
         }
 
         public List<User> GetAllUsers()
         {
-            using var context = new DataContext();
-            return context.Users.ToList();
+           
+            return _context.Users.ToList();
         }
 
-        public  User GetUserById(int id)
+        public User GetUserById(int id)
         {
             if (id == null)
             {
                 throw new ArgumentException(nameof(id));
             }
 
-            using var context = new DataContext();
-            return context.Users.FirstOrDefault(c => c.Id == id);
+            
+            return _context.Users.FirstOrDefault(c => c.Id == id);
         }
 
 
@@ -89,16 +101,16 @@ namespace Data
         /// </summary>
         public bool Login(User user)
         {
-            using var context = new DataContext();
+        
 
-            var usr = context.Users.FirstOrDefault(u => u.Email == user.Email);
+            var usr = _context.Users.FirstOrDefault(u => u.Email == user.Email);
 
             if (usr == null)
             {
-                return false; 
+                return false;
             }
 
-            
+
 
             return usr.Password == user.Password;
         }

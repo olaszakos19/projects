@@ -34,7 +34,7 @@
             userCount = new Label();
             totalVhicle = new Label();
             label6 = new Label();
-            label7 = new Label();
+            mostUsed = new Label();
             label8 = new Label();
             SuspendLayout();
             // 
@@ -98,15 +98,15 @@
             label6.TabIndex = 4;
             label6.Text = "Total vehicle count:";
             // 
-            // label7
+            // mostUsed
             // 
-            label7.AutoSize = true;
-            label7.Font = new Font("Segoe UI", 12F);
-            label7.Location = new Point(870, 207);
-            label7.Name = "label7";
-            label7.Size = new Size(20, 28);
-            label7.TabIndex = 7;
-            label7.Text = "-";
+            mostUsed.AutoSize = true;
+            mostUsed.Font = new Font("Segoe UI", 12F);
+            mostUsed.Location = new Point(870, 207);
+            mostUsed.Name = "mostUsed";
+            mostUsed.Size = new Size(20, 28);
+            mostUsed.TabIndex = 7;
+            mostUsed.Text = "-";
             // 
             // label8
             // 
@@ -122,7 +122,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            Controls.Add(label7);
+            Controls.Add(mostUsed);
             Controls.Add(label8);
             Controls.Add(totalVhicle);
             Controls.Add(label6);
@@ -145,7 +145,7 @@
         private Label userCount;
         private Label totalVhicle;
         private Label label6;
-        private Label label7;
+        private Label mostUsed;
         private Label label8;
     }
 }

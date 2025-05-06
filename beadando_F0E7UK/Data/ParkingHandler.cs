@@ -49,7 +49,7 @@ namespace Data
                                 && p.EndDate.Day >= targetDay.Day)
                     .Count();
             }
-            return context.Reservations.Where(p => p.LotId == parkinglot.Id && p.EndDate > DateTime.Now).Count();
+            return context.Reservations.Where(p => p.LotId == parkinglot.Id && p.EndDate > DateTime.Now && p.isEnded() == false).Count();
 
         }
 

@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\Programoz\u00E1s\\C#\\FSZ\\beadando_V2\\beadando_F0E7UK\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F7489DBA-6613-41B5-8F0C-820594DBE388}|Controls\\Controls.csproj|c:\\users\\user\\desktop\\programoz\u00E1s\\c#\\fsz\\beadando_v2\\beadando_f0e7uk\\controls\\admincontrols\\parkinglots\\addparkinglot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F7489DBA-6613-41B5-8F0C-820594DBE388}|Controls\\Controls.csproj|solutionrelative:controls\\admincontrols\\parkinglots\\addparkinglot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{F7489DBA-6613-41B5-8F0C-820594DBE388}|Controls\\Controls.csproj|c:\\users\\user\\desktop\\programoz\u00E1s\\c#\\fsz\\beadando_v2\\beadando_f0e7uk\\controls\\usercontrols\\userdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7489DBA-6613-41B5-8F0C-820594DBE388}|Controls\\Controls.csproj|solutionrelative:controls\\usercontrols\\userdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7489DBA-6613-41B5-8F0C-820594DBE388}|Controls\\Controls.csproj|c:\\users\\user\\desktop\\programoz\u00E1s\\c#\\fsz\\beadando_v2\\beadando_f0e7uk\\controls\\admincontrols\\parkinglots\\addparkinglot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7489DBA-6613-41B5-8F0C-820594DBE388}|Controls\\Controls.csproj|solutionrelative:controls\\admincontrols\\parkinglots\\addparkinglot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD96E05A-5769-40DD-8A2C-9241FE9FA731}|Data\\Data.csproj|c:\\users\\user\\desktop\\programoz\u00E1s\\c#\\fsz\\beadando_v2\\beadando_f0e7uk\\data\\reservationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD96E05A-5769-40DD-8A2C-9241FE9FA731}|Data\\Data.csproj|solutionrelative:data\\reservationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7489DBA-6613-41B5-8F0C-820594DBE388}|Controls\\Controls.csproj|c:\\users\\user\\desktop\\programoz\u00E1s\\c#\\fsz\\beadando_v2\\beadando_f0e7uk\\controls\\admincontrols\\parkinglots\\addparkinglot.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7489DBA-6613-41B5-8F0C-820594DBE388}|Controls\\Controls.csproj|solutionrelative:controls\\admincontrols\\parkinglots\\addparkinglot.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F7489DBA-6613-41B5-8F0C-820594DBE388}|Controls\\Controls.csproj|c:\\users\\user\\desktop\\programoz\u00E1s\\c#\\fsz\\beadando_v2\\beadando_f0e7uk\\controls\\usercontrols\\userdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F7489DBA-6613-41B5-8F0C-820594DBE388}|Controls\\Controls.csproj|solutionrelative:controls\\usercontrols\\userdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,40 +34,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AddParkinglot.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Programoz\u00E1s\\C#\\FSZ\\beadando_V2\\beadando_F0E7UK\\Controls\\AdminControls\\Parkinglots\\AddParkinglot.Designer.cs",
-              "RelativeDocumentMoniker": "Controls\\AdminControls\\Parkinglots\\AddParkinglot.Designer.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Programoz\u00E1s\\C#\\FSZ\\beadando_V2\\beadando_F0E7UK\\Controls\\AdminControls\\Parkinglots\\AddParkinglot.Designer.cs",
-              "RelativeToolTip": "Controls\\AdminControls\\Parkinglots\\AddParkinglot.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T13:44:35.129Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AddParkinglot.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Programoz\u00E1s\\C#\\FSZ\\beadando_V2\\beadando_F0E7UK\\Controls\\AdminControls\\Parkinglots\\AddParkinglot.cs",
-              "RelativeDocumentMoniker": "Controls\\AdminControls\\Parkinglots\\AddParkinglot.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Programoz\u00E1s\\C#\\FSZ\\beadando_V2\\beadando_F0E7UK\\Controls\\AdminControls\\Parkinglots\\AddParkinglot.cs",
-              "RelativeToolTip": "Controls\\AdminControls\\Parkinglots\\AddParkinglot.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAewAwAAAAjAAAAAAAAAA==",
+              "Title": "ReservationHandler.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Programoz\u00E1s\\C#\\FSZ\\beadando_V2\\beadando_F0E7UK\\Data\\ReservationHandler.cs",
+              "RelativeDocumentMoniker": "Data\\ReservationHandler.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Programoz\u00E1s\\C#\\FSZ\\beadando_V2\\beadando_F0E7UK\\Data\\ReservationHandler.cs",
+              "RelativeToolTip": "Data\\ReservationHandler.cs",
+              "ViewState": "AgIAAKcAAAAAAAAAAAAswMEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T13:44:26.926Z",
+              "WhenOpened": "2025-05-06T19:43:38.857Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AddParkinglot.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Programoz\u00E1s\\C#\\FSZ\\beadando_V2\\beadando_F0E7UK\\Controls\\AdminControls\\Parkinglots\\AddParkinglot.cs",
-              "RelativeDocumentMoniker": "Controls\\AdminControls\\Parkinglots\\AddParkinglot.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Programoz\u00E1s\\C#\\FSZ\\beadando_V2\\beadando_F0E7UK\\Controls\\AdminControls\\Parkinglots\\AddParkinglot.cs [Design]",
-              "RelativeToolTip": "Controls\\AdminControls\\Parkinglots\\AddParkinglot.cs [Design]",
+              "Title": "UserDashboard.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Programoz\u00E1s\\C#\\FSZ\\beadando_V2\\beadando_F0E7UK\\Controls\\UserControls\\UserDashboard.cs",
+              "RelativeDocumentMoniker": "Controls\\UserControls\\UserDashboard.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Programoz\u00E1s\\C#\\FSZ\\beadando_V2\\beadando_F0E7UK\\Controls\\UserControls\\UserDashboard.cs",
+              "RelativeToolTip": "Controls\\UserControls\\UserDashboard.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAuwDwAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T13:44:04.004Z",
+              "WhenOpened": "2025-05-06T19:42:15.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserDashboard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Programoz\u00E1s\\C#\\FSZ\\beadando_V2\\beadando_F0E7UK\\Controls\\UserControls\\UserDashboard.cs",
+              "RelativeDocumentMoniker": "Controls\\UserControls\\UserDashboard.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Programoz\u00E1s\\C#\\FSZ\\beadando_V2\\beadando_F0E7UK\\Controls\\UserControls\\UserDashboard.cs [Design]",
+              "RelativeToolTip": "Controls\\UserControls\\UserDashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T19:42:10.717Z",
               "EditorCaption": " [Design]"
             }
           ]

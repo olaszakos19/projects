@@ -28,11 +28,16 @@ namespace Controls.AdminControls
             int uCount = userHandler.GetOnlyUsers().Count;
             int vCount = vehicleHandler.GetAllVehicle().Count;
 
-            userCount.Text = uCount+" db";
+            userCount.Text = uCount + " db";
             parkingCount.Text = pCount + " db";
-            totalVhicle.Text = vCount+" db";
+            totalVhicle.Text = vCount + " db";
 
-            //int rCount = reservationHandler.
+            var mostUsedLot = reservationHandler.GetReservations().GroupBy(r => r.LotId)
+                              .OrderByDescending(g => g.Count())
+                              .Select(g => (int?)g.Key)
+                              .FirstOrDefault();
+
+            mostUsed.Text = parkingHandler.GettAllParkingLot().Where(p => p.Id == mostUsedLot).First().Name;
         }
     }
 }

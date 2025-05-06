@@ -7,12 +7,9 @@ C:\Users\user\Desktop\Programozás\C#\FSZ\beadando_V2\beadando_F0E7UK\Controls\b
 C:\Users\user\Desktop\Programozás\C#\FSZ\beadando_V2\beadando_F0E7UK\Controls\bin\Debug\net8.0-windows\Models.pdb
 C:\Users\user\Desktop\Programozás\C#\FSZ\beadando_V2\beadando_F0E7UK\Controls\obj\Debug\net8.0-windows\Controls.csproj.AssemblyReference.cache
 C:\Users\user\Desktop\Programozás\C#\FSZ\beadando_V2\beadando_F0E7UK\Controls\obj\Debug\net8.0-windows\Controls.AdminControls.AdminDashboard.resources
-C:\Users\user\Desktop\Programozás\C#\FSZ\beadando_V2\beadando_F0E7UK\Controls\obj\Debug\net8.0-windows\AdminControls.Parkinglot.AddParkinglot.resources
 C:\Users\user\Desktop\Programozás\C#\FSZ\beadando_V2\beadando_F0E7UK\Controls\obj\Debug\net8.0-windows\Controls.AdminControls.ReserVation.AdminAddReservation.resources
 C:\Users\user\Desktop\Programozás\C#\FSZ\beadando_V2\beadando_F0E7UK\Controls\obj\Debug\net8.0-windows\Controls.AdminControls.ReserVation.AdminReservationList.resources
 C:\Users\user\Desktop\Programozás\C#\FSZ\beadando_V2\beadando_F0E7UK\Controls\obj\Debug\net8.0-windows\Controls.AdminControls.ReserVation.RevenuePage.resources
-C:\Users\user\Desktop\Programozás\C#\FSZ\beadando_V2\beadando_F0E7UK\Controls\obj\Debug\net8.0-windows\AdminControls.AddUser.resources
-C:\Users\user\Desktop\Programozás\C#\FSZ\beadando_V2\beadando_F0E7UK\Controls\obj\Debug\net8.0-windows\AdminControls.UserList.resources
 C:\Users\user\Desktop\Programozás\C#\FSZ\beadando_V2\beadando_F0E7UK\Controls\obj\Debug\net8.0-windows\Controls.Login.resources
 C:\Users\user\Desktop\Programozás\C#\FSZ\beadando_V2\beadando_F0E7UK\Controls\obj\Debug\net8.0-windows\Controls.Profile.resources
 C:\Users\user\Desktop\Programozás\C#\FSZ\beadando_V2\beadando_F0E7UK\Controls\obj\Debug\net8.0-windows\Controls.Register.resources
@@ -37,3 +34,6 @@ C:\Users\user\Desktop\Programozás\C#\FSZ\beadando_V2\beadando_F0E7UK\Controls\o
 C:\Users\user\Desktop\Programozás\C#\FSZ\beadando_V2\beadando_F0E7UK\Controls\obj\Debug\net8.0-windows\Controls.AdminControls.ReserVation.AdminReservationHistory.resources
 C:\Users\user\Desktop\Programozás\C#\FSZ\beadando_V2\beadando_F0E7UK\Controls\obj\Debug\net8.0-windows\AdminControls.Vehicles.AdminAddCar.resources
 C:\Users\user\Desktop\Programozás\C#\FSZ\beadando_V2\beadando_F0E7UK\Controls\obj\Debug\net8.0-windows\AdminControls.Vehicles.AdminCarList.resources
+C:\Users\user\Desktop\Programozás\C#\FSZ\beadando_V2\beadando_F0E7UK\Controls\obj\Debug\net8.0-windows\AdminControls.Parkinglots.AddParkinglot.resources
+C:\Users\user\Desktop\Programozás\C#\FSZ\beadando_V2\beadando_F0E7UK\Controls\obj\Debug\net8.0-windows\AdminControls.Users.AddUser.resources
+C:\Users\user\Desktop\Programozás\C#\FSZ\beadando_V2\beadando_F0E7UK\Controls\obj\Debug\net8.0-windows\AdminControls.Users.UserList.resources
